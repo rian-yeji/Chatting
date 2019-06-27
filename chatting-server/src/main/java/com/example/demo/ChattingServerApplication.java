@@ -1,0 +1,14 @@
+package com.example.demo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ChattingServerApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(ChattingServerApplication.class, args);
+        System.out.println("Server 실행");
+    }
+
+}
